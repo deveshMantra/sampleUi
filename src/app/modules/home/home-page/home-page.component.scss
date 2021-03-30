@@ -1,0 +1,236 @@
+.form {
+
+  padding: 20px;
+ display: block;
+ position: relative;
+  content: "";
+  border-radius: 30px;
+  background: #fbfbfb;
+  box-shadow: 0px 4px 20px #00000029;
+
+}
+.form::before {
+    content: "";
+    width: 41px;
+  
+    padding: 100px;
+    z-index: -1;
+    position: absolute;
+    background-image: url("./../../../../assets/img/Ellipse.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -10%;
+    left: -10%;
+  }
+  .form::after {
+    content: "";
+    width: 41px;
+  
+    padding: 50px;
+    z-index: -1;
+    position: absolute;
+    background-image: url("./../../../../assets/img/redGrid.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -10%;
+    right: -10%;
+  }
+
+.flex-1 {
+  flex: 1;
+}
+
+.w-md-75 {
+  width: 75%;
+}
+.w-md-50 {
+  width: 50%;
+}
+@media screen and (max-width: 992px) {
+  .w-md-75 {
+    width: 100%;
+  }
+  .w-md-50 {
+    width: 100%;
+  }
+}
+.free {
+  color: rgb(59, 201, 206);
+}
+.setimg {
+  width: 508px;
+  height: 295px;
+}
+.img {
+  // position: relative;
+}
+
+// .img::after{
+// width: 100px;
+// background-color: black;
+// margin-top: 100px;
+// }
+// .img::before{
+// padding: 100px;
+// }
+.img2 {
+  background-image: url("./../../../../assets/img/eclipse_RedGrid_SocialIcon.svg");
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.089);
+  position: relative;
+  height: 420px;
+  background-size: cover;
+  /* display: flex; */
+  background-position: center;
+  display: flex;
+}
+// TODO: change file name
+// TODO : li should not be added or updated any css as it will become unusable
+.li-style {
+  list-style-image: url("./../../../../assets/img/checkIcon.svg");
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 14px;
+  padding: 2px;
+}
+.bgcolor {
+  background-image: linear-gradient(
+    to bottom,
+    #119fd6,
+    #119fd6,
+    #119fd6,
+    #119fd6,
+    #119fd6,
+    #119dd4,
+    #119cd2,
+    #119ad0,
+    #1196cc,
+    #1192c8,
+    #108ec3,
+    #108abf
+  );
+}
+.siz {
+  font-size: 20px;
+  font-family: Roboto;
+}
+.qsize {
+  font: normal normal normal 16px/26px Roboto;
+  color: white;
+}
+.imgAb {
+  content: "";
+  background-image: url("./../../../../assets/img/webSiteWireframe.png");
+  width: 100%;
+  height: 274px;
+  display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.imgAb::after {
+  content: "";
+  width: 41px;
+
+  padding: 55px;
+  z-index: -1;
+  position: absolute;
+  background-image: url("./../../../../assets/img/redGrid.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -14%;
+    left: 15%;
+}
+.invalid-feedback {
+  display: block;
+  width: 100%;
+  margin-top: .25rem;
+  font-size: .875em;
+  color: #dc3545;
+}
+
+.mleft-1 {
+  margin-left: 1rem;
+}
+.benefitsFild{padding: 0px 86px 0px 86px;}
+@media screen and (max-width: 767px) {
+  .book_a_demo{
+  
+    text-align: center;
+  }
+
+  .redEklipse::before {
+    content: "";
+    
+    padding: 87px;
+    z-index: -1;
+    position: absolute;
+    background-image: url("./../../../../assets/img/redEklipse.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0%;
+    right: 0%;
+    
+  }
+
+  .form::before {
+     content: "";
+  
+     width: 41px;
+     padding: 50px;
+     z-index: -1;
+     position: absolute;
+     background-image: url("./../../../../assets/img/redGrid.svg");
+
+     background-repeat: no-repeat;
+     background-size: contain;
+     bottom: -9% !important;
+   
+     top: auto;
+     left: -6%;
+    
+  }
+  
+  .form::after {
+    display: none;
+   
+  }
+  .free {
+    color: rgb(245, 101, 76);
+  }
+  .colorChange{
+    color: rgb(59, 201, 206);
+  }
+
+  .secondTital{
+    font-size: large;
+  text-align: center;
+  }
+  .img2>span{
+    color: #38ccf5;
+    font-size: 26px;
+    text-align: left !important;
+    padding: 0px 29px 0px 29px;
+    font-weight: 600;
+  }
+  .benefitsFild::before {
+    content: "";
+ 
+    width: 41px;
+    padding: 30px;
+    z-index: -1;
+    position: absolute;
+    background-image: url("./../../../../assets/img/blueGrid.svg");
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    bottom: -9% !important;
+  
+    top: auto;
+    right: 0%;
+   
+ }
+}
